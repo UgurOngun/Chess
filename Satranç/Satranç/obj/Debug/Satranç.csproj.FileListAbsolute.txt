@@ -1,0 +1,12 @@
+C:\Users\ugur_\Desktop\projeler\satranç\Satranç\Satranç\bin\Debug\Satranç.exe.config
+C:\Users\ugur_\Desktop\projeler\satranç\Satranç\Satranç\bin\Debug\Satranç.exe
+C:\Users\ugur_\Desktop\projeler\satranç\Satranç\Satranç\bin\Debug\Satranç.pdb
+C:\Users\ugur_\Desktop\projeler\satranç\Satranç\Satranç\obj\Debug\Satranç.csproj.AssemblyReference.cache
+C:\Users\ugur_\Desktop\projeler\satranç\Satranç\Satranç\obj\Debug\Satranç.csproj.SuggestedBindingRedirects.cache
+C:\Users\ugur_\Desktop\projeler\satranç\Satranç\Satranç\obj\Debug\Satranç.Properties.Resources.resources
+C:\Users\ugur_\Desktop\projeler\satranç\Satranç\Satranç\obj\Debug\Satranç.csproj.GenerateResource.cache
+C:\Users\ugur_\Desktop\projeler\satranç\Satranç\Satranç\obj\Debug\Satranç.csproj.CoreCompileInputs.cache
+C:\Users\ugur_\Desktop\projeler\satranç\Satranç\Satranç\obj\Debug\Satranç.exe
+C:\Users\ugur_\Desktop\projeler\satranç\Satranç\Satranç\obj\Debug\Satranç.pdb
+C:\Users\ugur_\Desktop\projeler\satranç\Satranç\Satranç\obj\Debug\Satranç.GİRİŞ.resources
+C:\Users\ugur_\Desktop\projeler\satranç\Satranç\Satranç\obj\Debug\Satranç.KAYİT.resources
