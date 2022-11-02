@@ -113,6 +113,7 @@
             this.Kaydol_Ekrani.TabIndex = 7;
             this.Kaydol_Ekrani.Text = "Şifreni mi unuttun?";
             this.Kaydol_Ekrani.UseVisualStyleBackColor = false;
+            this.Kaydol_Ekrani.Click += new System.EventHandler(this.Kaydol_Ekrani_Click);
             // 
             // pictureBox2
             // 

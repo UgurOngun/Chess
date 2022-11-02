@@ -16,8 +16,8 @@ namespace Satranç
         {
             InitializeComponent();
         }
- 
-    
+
+        
 
         protected void textBox1_Focus(Object sender, EventArgs e)
         {
@@ -47,6 +47,8 @@ namespace Satranç
         private void button1_Click(object sender, EventArgs e)
         {
 
+            Close();
+            
         }
 
         private void checkBox1_Click(object sender, EventArgs e)

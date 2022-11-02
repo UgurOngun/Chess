@@ -10,3 +10,5 @@ C:\Users\ugur_\Desktop\projeler\satranç\Satranç\Satranç\obj\Debug\Satranç.ex
 C:\Users\ugur_\Desktop\projeler\satranç\Satranç\Satranç\obj\Debug\Satranç.pdb
 C:\Users\ugur_\Desktop\projeler\satranç\Satranç\Satranç\obj\Debug\Satranç.GİRİŞ.resources
 C:\Users\ugur_\Desktop\projeler\satranç\Satranç\Satranç\obj\Debug\Satranç.KAYİT.resources
+C:\Users\ugur_\Desktop\projeler\satranç\Satranç\Satranç\obj\Debug\Satranç.Yeni_Sifre.resources
+C:\Users\ugur_\Desktop\projeler\satranç\Satranç\Satranç\obj\Debug\Satranç.Sifre_Unut.resources

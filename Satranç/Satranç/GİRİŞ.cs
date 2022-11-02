@@ -17,6 +17,8 @@ namespace Satranç
             
             InitializeComponent();
         }
+        
+        
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
 
@@ -51,6 +53,12 @@ namespace Satranç
         private void Kullanici_Adi_Eposta_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void Kaydol_Ekrani_Click(object sender, EventArgs e)
+        {
+            Sifre_Unut f3 = new Sifre_Unut();
+            f3.ShowDialog();
         }
     }
 }
