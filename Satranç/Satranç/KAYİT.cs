@@ -2,11 +2,16 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data;
+using MySql.Data.MySqlClient;
+using Org.BouncyCastle.Bcpg;
 
 namespace Satranç
 {
@@ -17,7 +22,9 @@ namespace Satranç
             InitializeComponent();
         }
 
-        
+        SqlConnection bag = new SqlConnection(@"Data Source=PC\UGUR;Initial Catalog=kullanici;Integrated Security=True");
+        SqlCommand komut = new SqlCommand();
+
 
         protected void textBox1_Focus(Object sender, EventArgs e)
         {
@@ -46,8 +53,30 @@ namespace Satranç
 
         private void button1_Click(object sender, EventArgs e)
         {
+            try
+            {
+                
 
-            Close();
+                if (Sifre_Tx.Text == SifreOnay_Tx.Text)
+                {
+                    bag.Open();
+                    SqlCommand komut = new SqlCommand("insert into kayit(email,kullaniciAdi,sifre) values('" + Eposta_Tx.Text.ToString() + "','" + KullaniciAdi_Tx.Text.ToString() + "','" + Sifre_Tx.Text.ToString() + "')", bag);
+                    komut.ExecuteNonQuery();
+                    bag.Close();
+                }
+
+                else
+                {
+                    MessageBox.Show("ŞİFRELER AYNI DEĞİL");
+                }
+
+            }
+            catch (Exception hata)
+            {
+
+                MessageBox.Show("SİSTEMDE ZATEN BÖYLE BİR KUllANICI VAR");
+            }
+            this.Hide();
             
         }
 

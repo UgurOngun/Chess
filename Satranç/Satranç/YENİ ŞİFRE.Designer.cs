@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.SifreOnay_Tx = new System.Windows.Forms.TextBox();
+            this.Sifre_Tx = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -40,8 +40,8 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.DarkOrange;
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.SifreOnay_Tx);
+            this.groupBox1.Controls.Add(this.Sifre_Tx);
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
@@ -52,19 +52,19 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Yeni Şifre";
             // 
-            // textBox2
+            // SifreOnay_Tx
             // 
-            this.textBox2.Location = new System.Drawing.Point(156, 176);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(140, 20);
-            this.textBox2.TabIndex = 4;
+            this.SifreOnay_Tx.Location = new System.Drawing.Point(156, 176);
+            this.SifreOnay_Tx.Name = "SifreOnay_Tx";
+            this.SifreOnay_Tx.Size = new System.Drawing.Size(140, 20);
+            this.SifreOnay_Tx.TabIndex = 4;
             // 
-            // textBox1
+            // Sifre_Tx
             // 
-            this.textBox1.Location = new System.Drawing.Point(156, 85);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(140, 20);
-            this.textBox1.TabIndex = 3;
+            this.Sifre_Tx.Location = new System.Drawing.Point(156, 85);
+            this.Sifre_Tx.Name = "Sifre_Tx";
+            this.Sifre_Tx.Size = new System.Drawing.Size(140, 20);
+            this.Sifre_Tx.TabIndex = 3;
             // 
             // button1
             // 
@@ -115,7 +115,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox SifreOnay_Tx;
+        private System.Windows.Forms.TextBox Sifre_Tx;
     }
 }

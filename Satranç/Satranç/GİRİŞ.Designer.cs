@@ -40,7 +40,7 @@
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.Giris = new System.Windows.Forms.Button();
             this.Sifre = new System.Windows.Forms.TextBox();
-            this.Kullanici_Adi_Eposta = new System.Windows.Forms.TextBox();
+            this.Eposta = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.groupBox1.SuspendLayout();
@@ -74,7 +74,7 @@
             this.groupBox1.Controls.Add(this.checkBox1);
             this.groupBox1.Controls.Add(this.Giris);
             this.groupBox1.Controls.Add(this.Sifre);
-            this.groupBox1.Controls.Add(this.Kullanici_Adi_Eposta);
+            this.groupBox1.Controls.Add(this.Eposta);
             this.groupBox1.Location = new System.Drawing.Point(269, 128);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(240, 300);
@@ -155,6 +155,7 @@
             this.Giris.TabIndex = 7;
             this.Giris.Text = "GİRİŞ";
             this.Giris.UseVisualStyleBackColor = false;
+            this.Giris.Click += new System.EventHandler(this.Giris_Click);
             // 
             // Sifre
             // 
@@ -164,15 +165,16 @@
             this.Sifre.Size = new System.Drawing.Size(169, 20);
             this.Sifre.TabIndex = 6;
             this.Sifre.UseSystemPasswordChar = true;
+            this.Sifre.TextChanged += new System.EventHandler(this.Sifre_TextChanged);
             // 
-            // Kullanici_Adi_Eposta
+            // Eposta
             // 
-            this.Kullanici_Adi_Eposta.Location = new System.Drawing.Point(46, 50);
-            this.Kullanici_Adi_Eposta.Name = "Kullanici_Adi_Eposta";
-            this.Kullanici_Adi_Eposta.Size = new System.Drawing.Size(169, 20);
-            this.Kullanici_Adi_Eposta.TabIndex = 5;
-            this.toolTip1.SetToolTip(this.Kullanici_Adi_Eposta, "Kullanıcı Adı veya E-postanızı giriniz");
-            this.Kullanici_Adi_Eposta.TextChanged += new System.EventHandler(this.Kullanici_Adi_Eposta_TextChanged);
+            this.Eposta.Location = new System.Drawing.Point(46, 50);
+            this.Eposta.Name = "Eposta";
+            this.Eposta.Size = new System.Drawing.Size(169, 20);
+            this.Eposta.TabIndex = 5;
+            this.toolTip1.SetToolTip(this.Eposta, "E-postanızı giriniz");
+            this.Eposta.TextChanged += new System.EventHandler(this.Kullanici_Adi_Eposta_TextChanged);
             // 
             // pictureBox1
             // 
@@ -217,7 +219,7 @@
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Button Giris;
         private System.Windows.Forms.TextBox Sifre;
-        private System.Windows.Forms.TextBox Kullanici_Adi_Eposta;
+        private System.Windows.Forms.TextBox Eposta;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox3;
